@@ -1,0 +1,102 @@
+\documentclass{article}
+\renewcommand\refname{Referencias}
+\renewcommand{\contentsname}{Índice de Contenído}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage[spanish]{babel}
+\usepackage[
+  style=ieee,
+]{biblatex}
+\usepackage[
+  colorlinks=false,
+  bookmarks=true]{hyperref}
+\addbibresource{infraestructura_cloud_computing.bib}
+
+\title{\textsc{Infraestructura para la Nube}\\Proyecto de Extensión\\{\tt borrador }}
+\author{\textsc{Ulises C. Ramirez} [\textit{ulisesrcolina@gmail.com}]}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Introducción}%
+\label{sec:introduccion}
+En los últimos años, con el avance de internet, el uso de componentes basados
+en la ``nube'' ganó
+mucha popularidad, tanto así que en la actualidad tenemos servicios para
+guardar archivos en la nube\cite{m-19, m-20, m-21},
+servicios multimedia (audio\cite{m-1, m-2, m-3, m-4},
+audio en vivo\cite{m-22},
+video\cite{m-5, m-6, m-7},
+video en vivo\cite{m-8},
+imágenes\cite{m-9, m-10, m-11}) basados en la nube,
+servicios para editar documentos de manera colaborativa en la nube
+\cite{m-12, m-13, m-14, m-15},
+servicios para jugar en la nube\cite{m-16, m-17, m-18}, por mencionar
+algunos\footnote{Cabe destacar que la lista de servicios basados en la nube es
+mayor a la expuesta aquí, y esta se encuentra en constante crecimiento}
+de los que actualmente se encuentran disponibles, haciendo énfasis especialmente
+en servicios que utilizan las personas ``comunes''.
+
+Esta nueva ola de servicios
+en la nube trae consigo múltiples desafíos en las áreas técnicas en cuanto al
+hardware y software para el sustento de la infraestructura que es necesaria
+para brindar el servicio, estos desafíos vienen en forma de aprovisionamiento
+de poder de cómputo que posibilite la escalabilidad, mecanismos que permitan la
+alta disponibilidad, herramientas que den soporte al procesamiento de la
+creciente cantidad de datos, etc.
+
+Así nacen y se popularizan diferentes herramientas que permiten el manejo del
+poder de cómputo de diferentes máquinas interconectadas, tales como
+\texttt{OpenStack}\footnote{\url{https://openstack.org}}, \texttt{Apache
+Mesos}\footnote{ \url{http://mesos.apache.org}  },
+\texttt{DC/OS}\footnote{ \url{https://dcos.io}  }, lista que sigue en constante
+crecimiento al igual que la cantidad de servicios en la nube.
+
+
+
+\section{Descripción del Proyecto}%
+\label{sec:descripcion_del_proyecto}
+En este proyecto se plantea la implementación de recursos de hardware y
+software teniendo como objetivo crear un cluster de unidades de cómputo en el
+módulo de Apóstoles.
+
+\section{I+D}%
+\label{sec:i_d}
+La implementación de estos recursos darán lugar a que se creen proyectos en nuevas áreas de investigación
+dentro del módulo, de esta manera implementación formal de los recursos de cómputo en el módulo darán lugar
+a que proyectos de investigación o cátedras que requieran el uso de éstos,
+los tengan disponibles.
+
+
+
+
+\section{Formación de RRHH}%
+\label{sec:formacion_de_rrhh}
+% Apuntar a que el mercado lo esta implementando en gran medida, por lo que
+% suma el hecho de que los alumnos/docentes se capaciten y puedan educar en el
+% tema, y todo esto se da dentro de la universidad.
+El uso de técnologías basadas en la nube, que permiten el escalado horizontal y
+la alta disponibilidad --entre otras cuestiones--, ha ganado mucha popularidad
+(y lo sigue haciendo\cite{harper2019}) a lo largo de los ultimos años\cite{m-23},
+por lo que la formación de recursos humanos que estén capacitados en el uso de
+éstas tecnologías emergentes tendran un gran valor agregado, alumnos y docentes
+que deseen acceder a los recursos tendrán los mismos en las instalaciones de la
+facultad, de otra manera, sería necesario el alquiler del poder de cómputo de
+un tercero\cite{aws, gce, ibm-cloud}.
+
+% todo no se si esto está bien, pero como idea poner en evidencia el hecho de que
+% las universidades de la región no tienen eso, por lo que sería llamativo tener
+% RRHH que esté capacitado en el tema
+
+
+% === Bilbiografia === %
+\newpage
+
+\printbibliography[keyword={web-oficial},title={Referencias: Sitios Oficiales}]
+\printbibliography[keyword={articulo}, title={Referencias: Artículos}]
+\end{document}

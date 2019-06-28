@@ -1,0 +1,14 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is '/home/urc/Documentos/Facultad/SD - Sistemas Distribuidos/Proyecto_OpenStack/definicion_proyecto/OpenStack_proyecto_extensiÃ³n.blg'
+[20] biber:315> INFO - === jue jun 27, 2019, 02:14:01
+[51] Biber.pm:371> INFO - Reading '/home/urc/Documentos/Facultad/SD - Sistemas Distribuidos/Proyecto_OpenStack/definicion_proyecto/OpenStack_proyecto_extensión.bcf'
+[103] Biber.pm:889> INFO - Found 28 citekeys in bib section 0
+[114] Biber.pm:4093> INFO - Processing section 0
+[123] Biber.pm:4254> INFO - Looking for bibtex format file 'OpenStack_proyecto_extension.bib' for section 0
+[124] bibtex.pm:1523> INFO - LaTeX decoding ...
+[143] bibtex.pm:1340> INFO - Found BibTeX data source '/home/urc/Documentos/Facultad/SD - Sistemas Distribuidos/Proyecto_OpenStack/definicion_proyecto/OpenStack_proyecto_extension.bib'
+[177] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[177] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[177] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[193] bbl.pm:636> INFO - Writing '/home/urc/Documentos/Facultad/SD - Sistemas Distribuidos/Proyecto_OpenStack/definicion_proyecto/OpenStack_proyecto_extensiÃ³n.bbl' with encoding 'UTF-8'
+[197] bbl.pm:739> INFO - Output to /home/urc/Documentos/Facultad/SD - Sistemas Distribuidos/Proyecto_OpenStack/definicion_proyecto/OpenStack_proyecto_extensiÃ³n.bbl
